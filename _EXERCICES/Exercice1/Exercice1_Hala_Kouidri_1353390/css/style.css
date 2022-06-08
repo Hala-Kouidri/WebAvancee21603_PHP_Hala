@@ -1,0 +1,24 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(222, 242, 181);
+  margin: 50px;
+  padding: 20px;
+}
+
+.container-pet {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246, 221, 252);
+  margin: 50px 200px;
+  padding: 20px;
+}
+
