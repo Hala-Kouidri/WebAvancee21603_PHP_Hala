@@ -19,7 +19,7 @@ if($url == '/'){
     require_once $controllerPath;
     $controllerName = 'Controller'.$requestURL;
     $controller = new $controllerName;
-    if(isset($url[1])){
+    if(isset($url[1])){ //après le 2e slash
       $method = $url[1];
       echo $controller->$method();
     }else{

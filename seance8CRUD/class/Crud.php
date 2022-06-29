@@ -3,7 +3,7 @@
 class Crud extends PDO{
 
     public function __construct(){
-        parent::__construct("mysql:host=localhost;dbname=ecommerce", "root", "");
+        parent::__construct("mysql:host=localhost;dbname=ecommerce", "root", "root");
     }
 
     public function insert($table, $data){
