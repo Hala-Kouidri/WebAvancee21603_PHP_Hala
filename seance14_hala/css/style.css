@@ -1,0 +1,34 @@
+body {
+    margin: auto;
+    padding-left: 30px;
+    background: lightblue;
+    font-family: sans-serif;
+  
+  }
+  input, select {
+<<<<<<< HEAD
+    padding: 10px;
+    width: 150px;
+=======
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin: 5px;
+>>>>>>> 942c79bd85a0fcdd73b600f85482439cc339d086
+  }
+    .error{
+      color: red;
+    }
+<<<<<<< HEAD
+=======
+
+table{
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid darkslategray;
+}
+>>>>>>> 942c79bd85a0fcdd73b600f85482439cc339d086
+  
