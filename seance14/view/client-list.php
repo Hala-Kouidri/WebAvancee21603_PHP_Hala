@@ -15,17 +15,6 @@
             <th>Address</th>
             <th>Phone</th>
         </tr>
-<<<<<<< HEAD
-<?php
-    foreach($clients as $client){
-        extract($client);
-        echo '<tr><td>'.$nom.'</td><td>'.$adresse.'</td><td>'.$phone.'</td></tr>';
-    }
-?>
-    </table>
-</body>
-</html>
-=======
         {% for client in clients %}
         <tr>
             <td>{{client.nom }}</td>
@@ -36,4 +25,3 @@
     </table>
 </body>
 </html>
->>>>>>> 942c79bd85a0fcdd73b600f85482439cc339d086

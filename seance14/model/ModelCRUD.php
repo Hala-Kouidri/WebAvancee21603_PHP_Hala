@@ -14,8 +14,6 @@ abstract class CRUD extends PDO{
         $query = $this->query($sql);
         return $query->fetchAll();
     }
-<<<<<<< HEAD
-=======
 
     public function insert($data){
 
@@ -36,5 +34,4 @@ abstract class CRUD extends PDO{
     }
 
 
->>>>>>> 942c79bd85a0fcdd73b600f85482439cc339d086
 }

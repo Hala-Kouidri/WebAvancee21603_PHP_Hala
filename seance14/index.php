@@ -23,16 +23,12 @@ if($url == '/'){
     $controller = new $controllerName;
     if(isset($url[1])){
       $method = $url[1];
-<<<<<<< HEAD
-      echo $controller->$method();
-=======
       if(isset($url[2])){
         $value = $url[2];
         echo $controller->$method($value);
       }else{
         echo $controller->$method();
       }
->>>>>>> 942c79bd85a0fcdd73b600f85482439cc339d086
     }else{
       echo $controller->index();
     }
